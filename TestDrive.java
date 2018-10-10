@@ -14,8 +14,8 @@ public class TestDrive
 		// setup second ArrayCollection
 		String[] stringArray2 = {"Delta", "Charlie"};
 		SACollectionExtended<String> stringCollection2 = new SACollectionExtended<>(stringArray2.length);
-//		for (String s : stringArray2)
-//			stringCollection2.add(s);
+		for (String s : stringArray2)
+			stringCollection2.add(s);
 
 		// combine into third collection
 		SACollectionExtended<String> stringCollection3 = stringCollection1.combine(stringCollection2);
